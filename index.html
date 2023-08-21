@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brunda portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container s-pad">
+            <nav>
+                <h1 class="logo"><span>B</span>runda</h1>
+
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas  fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="content">
+                <h1>Hai,My name is<span> Brunda</span><br> from sagara.</h1>
+                <h4>and I'm Passionate in web developement.</h4>
+                <button><a href="./resume_PDK.pdf">Download CV</a></button>
+                <div class="icons">
+                    <ul>
+                        <li><a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/brundab2121"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--==============about==============-->
+        <div class="about s-pad" id="about">
+            <div class="a-head">
+                <h2 class="head">About</h2>
+                <p>Hai, I'm Brunda.B I'm Passionate about web developement goals Passionate by doing satisfying work in IT field,Strongly focused to complete the task in fast-face environment.</p>
+            </div>
+            <div class="tab-sec">
+                <div class="a-tabs">
+                    <img class="image" src="./images/education.png">
+                    <h4>Education</h4>
+                    <ul>
+                        <li>
+                            <p>Graduation in BSc(PMCs).<br>
+                                Kuvempu University,<br>
+                                passing year 2021.</p>
+                        </li>
+                        <li>
+                            <p>PUC in Science.,<br>
+                                PU Board,<br>passing year 2017.</p>
+                        </li>
+                        <li>
+                            <p>10th KSEEB<br>passing year 2015.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="a-tabs">
+                    <img class="image" src="./images/skills.png">
+                    <h4>Skills</h4>
+                    <ul>
+                        <li>
+                            <p>HTML5</p>
+                        </li>
+                        <li>
+                            <p>CSS3</p>
+                        </li>
+                        <li>
+                            <p>JAVA</p>
+                        </li>
+                        <li>
+                            <p>JavaScript</p>
+                        </li>
+                        <li>
+                            <p>Bootstrap</p>
+                        </li>
+                        <li>
+                            <p>web developement</p>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="a-tabs">
+                    <img class="image" src="./images/certificate.png">
+                    <h4>Certificate</h4>
+                    <ul>
+                        <li>
+                            <p>JAVA Certificate.<br>
+                                from women in tech program<br>by infosys.</p>
+                        </li>
+                        <li>
+                            <p>Purusing Web developement.<br>
+                                By Udemy.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--===============Projects=============-->
+        <div class="project s-pad" id="project">
+            <div class="p-head">
+                <h2 class="head">Projects</h2>
+            </div>
+            <div class="p-sec">
+                <div class="p-tabs">
+                    <img src="./images/100_or.png">
+                    <h4>Organic Shop</h4>
+                    <p>Using HTML5, Css3, Bootstrap.</p>
+                    <div><a href="https://brundab-16.github.io/My_organic_shop/">See more</a></div>
+                </div>
+                <div class="p-tabs">
+                    <img src="./images/women dev.png">
+                    <h4>project2</h4>
+                    <p>Lorem ipsum dolor sit amet consectetu.</p>
+                    <div> <a href="./">See more</a></div>
+                </div>
+            </div>
+        </div>
+        
+        <!--==================Contact==============-->
+        <div class="contact s-pad" id="contact">
+            <div class="c-head">
+                <h2 class="head">Contact</h2>
+            </div>
+            <div class="c-sec">
+                <div class="c-tabs c-left">
+                    <h3>Contact Me</h3>
+                    <p><i class="fa-solid fa-paper-plane"></i>: brundab2121@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>: 7411974774</p>
+                    <p><i class="fa-solid fa-phone"></i>: 9611097774</p>
+                    <div class="icons">
+                        <a href="./"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="./"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="./"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="c-tabs c-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var sidem = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidem.style.right = "0";
+        }
+        function closemenu() {
+            sidem.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
