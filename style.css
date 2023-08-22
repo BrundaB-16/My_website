@@ -423,8 +423,8 @@ form button:hover {
         background-color: black;
         position: fixed;
         top: 0;
-        right: 200px;
-        width: -200px;
+        right: -200px;
+        width: 200px;
         height: 100vh;
         border-radius: 0 0 0 55px;
         border: 1px solid #333;
